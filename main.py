@@ -10,13 +10,19 @@ def left ():
     turtle.left(45)
 
 def forward():
-    turtle.forward(100)
+    turtle.forward(75)
 
 def penup():
     turtle.penup()
 
 def pendown():
     turtle.pendown()
+
+
+turtle.color("white")
+win.bgcolor("black")
+
+
 
 win.listen()
 
