@@ -10,7 +10,7 @@ def left ():
     turtle.left(45)
 
 def forward():
-    turtle.forward(75)
+    turtle.forward(50)
 
 def penup():
     turtle.penup()
@@ -20,7 +20,8 @@ def pendown():
 
 def center():
     turtle.setx(0)
-    turtle.sety()
+    turtle.sety(0)
+
 
 turtle.color("white")
 win.bgcolor("black")
@@ -35,6 +36,7 @@ win.onkey(forward,"Up")
 win.onkey(penup,"q")
 win.onkey(pendown,"w")
 win.onkey(center,"Q")
+
 
 
 
