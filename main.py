@@ -18,6 +18,9 @@ def penup():
 def pendown():
     turtle.pendown()
 
+def center():
+    turtle.setx(0)
+    turtle.sety()
 
 turtle.color("white")
 win.bgcolor("black")
@@ -30,6 +33,9 @@ win.onkey(right,"Right")
 win.onkey(left,"Left")
 win.onkey(forward,"Up")
 win.onkey(penup,"q")
+win.onkey(pendown,"w")
+win.onkey(center,"Q")
+
 
 
 
