@@ -10,16 +10,21 @@ def left ():
     turtle.left(45)
 
 def forward():
-    turtle.ft(100)
+    turtle.forward(100)
 
+def penup():
+    turtle.penup()
+
+def pendown():
+    turtle.pendown()
 
 win.listen()
 
-win.onkey()
-win.onkey()
-win.onkey()
-win.onkey()
-win.onkey()
+win.onkey(right,"Right")
+win.onkey(left,"Left")
+win.onkey(forward,"Up")
+win.onkey(penup,"q")
+win.onkey(pendown,"Q")
 
 
 
