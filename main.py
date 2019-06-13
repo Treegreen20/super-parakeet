@@ -30,7 +30,8 @@ win.onkey(right,"Right")
 win.onkey(left,"Left")
 win.onkey(forward,"Up")
 win.onkey(penup,"q")
-win.onkey(pendown,"Q")
+
+
 
 
 
